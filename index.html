@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>landing page</title>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header{
+                width:100%;
+                height: 100vh;
+               background-image: url('https://www.travelandleisure.com/thmb/wsA6EXFuYkqtuJGLbQWw05-cwPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/lake-como-MOSTBEAUTIFUL0921-cb08f3beff1041e4beefc67b5e956b23.jpg');
+                background-size: cover;
+            }
+            .logo{
+    
+                width:20px;
+                height:20px;
+            }
+
+            img{
+                padding: 0;
+                margin:0;
+                width:90px;
+                height:90px;
+                transform: rotate(20deg);
+                align-items: self-start;
+                
+            }
+            nav{
+                display: flex;
+                justify-content: flex-end;
+            }
+            a{
+                margin: 5px;
+                padding: 5px;
+                color: white;
+                font-size: larger;
+                text-decoration: none;
+            }
+           .now{
+                text-shadow: 2px 2px pink;
+                color: aqua;
+                
+           }
+            section{
+                background-color:linear-gradient(45deg,black,darkred);
+                padding: 5px;
+                margin: 5px;
+                align-items: center;
+                justify-content: center;
+
+            }
+            article{
+                
+                padding: 5px;
+                background: linear-gradient(45deg,black,orange);
+                margin: 5px;
+                border-radius: 5px;
+               color:white;
+            }
+            .but{
+               display: flex;
+           justify-content: center;
+            align-items: center;
+            height: 500px;
+              }
+              input{
+                border-radius: 5px;
+                background-color: darkcyan;
+                width: 80px;
+                height: 30px;
+                
+              }
+            
+           
+        </style>
+    </head>
+    <body>
+        <header>
+            
+            <div class="logo">
+                <img src="logo-removebg-preview.png" >
+            </div>
+            <div>
+
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Best offers</a>
+                    <a href="#">Sites</a>
+                    <a href="#">Register</a>
+                </nav>
+            </div>
+            <div class="now">
+                <a href="#">TG travels</a>
+            </div>
+            <div class="but">
+                <input type="button" value="book now" onclick="alert('tiecket booked')">
+            </div>
+            
+
+        </header>
+    </body>
+</html>
